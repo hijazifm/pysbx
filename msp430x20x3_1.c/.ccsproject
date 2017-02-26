@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<deviceVariant value="MSP430F2003"/>
+	<deviceFamily value="MSP430"/>
+	<codegenToolVersion value="16.3.0.STS"/>
+	<isElfFormat value="true"/>
+	<linkerCommandFile value="lnk_msp430f2003.cmd"/>
+	<rts value="libc.a"/>
+	<createSlaveProjects value=""/>
+	<origin value="C:\ti\MSP430Ware_3_50_00_04\~TIRex\MSPWare\templates\scripts\projects\msp430x20x3_1.c_MSP430F2003.projectspec"/>
+	<templateProperties value="id=msp430x20x3_1.c_MSP430F2003.projectspec.msp430x20x3_1.c,"/>
+</projectOptions>

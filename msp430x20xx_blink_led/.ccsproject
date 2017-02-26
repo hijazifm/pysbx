@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<deviceVariant value="MSP430F2013"/>
+	<deviceFamily value="MSP430"/>
+	<codegenToolVersion value="16.3.0.STS"/>
+	<isElfFormat value="true"/>
+	<linkerCommandFile value="lnk_msp430f2013.cmd"/>
+	<rts value="libc.a"/>
+	<createSlaveProjects value=""/>
+	<origin value="C:\ti\MSP430Ware_3_50_00_04\examples\grace\MSP430F2xx\MSP430F20xx\msp430x20xx_blink_led\msp430x20xx_blink_led.projectspec"/>
+	<templateProperties value="id=msp430x20xx_blink_led.projectspec.msp430x20xx_blink_led,products=com.ti.sdo.grace;com.ti.mcu.msp430.driverlib,configuroOptions=--compileOptions &quot;--symdebug:dwarf -g --optimize_with_debug&quot;,buildProfile=debug,type=rtsc,platform=ti.platforms.msp430:MSP430F2013,"/>
+</projectOptions>

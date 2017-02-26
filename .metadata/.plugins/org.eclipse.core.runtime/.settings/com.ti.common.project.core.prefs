@@ -1,0 +1,4 @@
+BUILD_VERBOSITY_LEVEL=NORMAL
+TerminalPrefInvertColors=true
+eclipse.preferences.version=1
+overriddenByCSS=,TerminalPrefInvertColors,

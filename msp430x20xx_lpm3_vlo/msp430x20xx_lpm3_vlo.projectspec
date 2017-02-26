@@ -1,0 +1,14 @@
+<projectSpec>
+    <project compilerBuildOptions="--advice:power=&quot;none&quot; -O0" device="MSP430F2013" name="msp430x20xx_lpm3_vlo">
+        <property name="products" value="com.ti.sdo.grace;com.ti.mcu.msp430.driverlib" />
+        <property name="configuroOptions" value="--compileOptions &quot;--symdebug:dwarf -g --optimize_with_debug&quot;" />
+        <property name="buildProfile" value="debug" />
+        <property name="type" value="rtsc" />
+        <property name="platform" value="ti.platforms.msp430:MSP430F2013" />
+        <file action="copy" path="msp430x20xx_lpm3_vlo.c" />
+        <file action="copy" path="InterruptVectors_init.c" targetDirectory="src/grace" />
+        <file action="copy" path="msp430x20xx_lpm3_vlo.cfg" />
+        <file action="copy" path="msp430x20xx_lpm3_vlo.projectspec" />
+        <file action="copy" path=".exclude" targetDirectory="src" />
+    </project>
+</projectSpec>

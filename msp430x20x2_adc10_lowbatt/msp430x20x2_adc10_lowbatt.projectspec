@@ -1,0 +1,12 @@
+<projectSpec>
+    <project compilerBuildOptions="--advice:power=&quot;none&quot; -O0" device="MSP430F2012" name="msp430x20x2_adc10_lowbatt">
+        <property name="products" value="com.ti.sdo.grace;com.ti.mcu.msp430.driverlib" />
+        <property name="configuroOptions" value="--compileOptions &quot;--symdebug:dwarf -g --optimize_with_debug&quot;" />
+        <property name="buildProfile" value="debug" />
+        <property name="type" value="rtsc" />
+        <property name="platform" value="ti.platforms.msp430:MSP430F2012" />
+        <file action="copy" path="msp430x20x2_adc10_lowbatt.projectspec" />
+        <file action="copy" path="msp430x20x2_adc10_lowbatt.cfg" />
+        <file action="copy" path="msp430x20x2_adc10_lowbatt.c" />
+    </project>
+</projectSpec>

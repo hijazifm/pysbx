@@ -1,0 +1,26 @@
+
+**** Build of configuration Debug for project msp430g2xx3_timera_pwm ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../msp430g2xx3_timera_pwm.cfg'
+'Invoking: XDCtools'
+"C:/ti/xdctools_3_32_00_06_core/xs" --xdcpath="C:/ti/grace_3_10_00_82/packages;C:/ti/msp430/MSPWare_3_30_00_18/driverlib/packages;C:/ti/msp430/MSPWare_3_30_00_18/driverlib;C:/ti/ccsv6/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.msp430.elf.MSP430 -p ti.platforms.msp430:MSP430G2553 -r debug -c "C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_16.3.0.STS" --compileOptions "--symdebug:dwarf -g --optimize_with_debug" "../msp430g2xx3_timera_pwm.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring msp430g2xx3_timera_pwm.xe430 from package/cfg/msp430g2xx3_timera_pwm_pe430.cfg ...
+cle430 package/cfg/msp430g2xx3_timera_pwm_pe430.c ...
+'Finished building: ../msp430g2xx3_timera_pwm.cfg'
+' '
+'Building file: ../msp430g2xx3_timera_pwm.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_16.3.0.STS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_16.3.0.STS/include" --advice:power="none" -g --define=__MSP430G2553__ --display_error_number --diag_wrap=off --diag_warning=225 --abi=eabi --printf_support=minimal --preproc_with_compile --preproc_dependency="msp430g2xx3_timera_pwm.pp" --cmd_file="configPkg/compiler.opt" "../msp430g2xx3_timera_pwm.c"
+'Finished building: ../msp430g2xx3_timera_pwm.c'
+' '
+'Building target: msp430g2xx3_timera_pwm.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_16.3.0.STS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --advice:power="none" -g --define=__MSP430G2553__ --display_error_number --diag_wrap=off --diag_warning=225 --abi=eabi --printf_support=minimal -z -m"msp430g2xx3_timera_pwm.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_16.3.0.STS/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_16.3.0.STS/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="msp430g2xx3_timera_pwm_linkInfo.xml" --use_hw_mpy=none --rom_model -o "msp430g2xx3_timera_pwm.out" "./msp430g2xx3_timera_pwm.obj" "../lnk_msp430g2553.cmd" -l"configPkg/linker.cmd" -l"libc.a" 
+<Linking>
+'Finished building target: msp430g2xx3_timera_pwm.out'
+' '
+
+**** Build Finished ****
